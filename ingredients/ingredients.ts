@@ -20,8 +20,6 @@ import JS from "./img/FE/JS.png";
 import REACT from "./img/FE/REACT.png";
 import TS from "./img/FE/TS.png";
 
-
-
 import ASP_dot_Net from "./img/Framework/ASP_dot_Net.png";
 import Django from "./img/Framework/Django.jpg";
 import dotnet from "./img/Framework/dotnet.png";
@@ -33,7 +31,6 @@ import git from "./img/VC/git.png";
 import github from "./img/VC/github.png";
 import Vercel from "./img/VC/Vercel.png";
 
-
 import card from "./img/project/card.png";
 import DM from "./img/project/DM.png";
 import lotto from "./img/project/lotto.png";
@@ -42,7 +39,7 @@ import portfolio from "./img/project/portfolio.png";
 import shop from "./img/project/shop.png";
 import taja from "./img/project/taja.png";
 import instclone from "./img/project/inst-clone.png";
-
+import schooldashboard from "./img/project/sdb.png"
 
 import pub1 from "./img/publishing/pub1.png";
 import pub2 from "./img/publishing/pub2.png";
@@ -157,18 +154,18 @@ export const projects: Project[] = [
         link: "https://github.com/9511dasol/MiniProject_2",
     },
     {
-        title: "Project of Instagram DM clone coding",
-        subheading: "DM of Instagram",
-        img: DM,
-        description: "인스타그램을 참고하여 만든 인스타그램 dm - 프로젝트",
-        link: "https://github.com/9511dasol/dm",
-    },
-    {
         title: "Instagram clone coding",
         subheading: "Instagram",
         img: instclone,
         description: "인스타그램을 참고하여 만든 인스타그램",
         link: "https://github.com/9511dasol/instagram-clone",
+    },
+    {
+        title: "School Management Dashboard",
+        subheading: "School Dashboard",
+        img: schooldashboard,
+        description: "학교, 교사, 학생들의 성과와 진행 상황을 한눈에 볼 수 있는 웹사이트",
+        link: "https://github.com/9511dasol/dashboard.git",
     },
 ]
 
